@@ -17,7 +17,7 @@ public class Pool4 extends Pool { //kids cannot enter if there are instructors w
     	}
     	log.swimming();
     	kidsSwimming++;
-    	notifyAll();
+    	notifyAll(); 
     }
     public synchronized void kidRests() {
     	log.resting();
